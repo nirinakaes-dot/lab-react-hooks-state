@@ -1,3 +1,16 @@
-/* TODO (optional): Define styles for dark mode */
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+  border-radius: 16px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
 
-/* TODO (optional): Ensure text and background colors adjust for dark mode */
+.light {
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+.dark {
+  background-color: #1f2937;
+  color: #f9fafb;
+}
